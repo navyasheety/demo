@@ -5,8 +5,8 @@
     <classes>
       <class name="test.Completetest">
         <methods>
+          <include name="sample" invocation-numbers="0"/>
           <include name="closeDriver"/>
-          <include name="facebook" invocation-numbers="0"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- test.Completetest -->

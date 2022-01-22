@@ -55,15 +55,28 @@ public class Completetest extends Baseclass {
 	
 	
 
-	@Test(dataProvider="testdata", enabled=false)
+	@Test(dataProvider="testdata")
 
-	public void sample(String first, String last,String mobile,String city ) throws FileNotFoundException, IOException, InterruptedException {
+	public void sample(HashMap<String,String>data ) throws FileNotFoundException, IOException, InterruptedException {
 
 		driver.get(getProperty("prod"));
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		
+		click(search.gotocheckin);
+		
+		click(search.getcheckin(data.get("checkin")));
+		
+		Thread.sleep(2000);
+		
+		click(search.getcheckin(data.get("checkout")));
+		
+		
+		
 		 
-		System.out.println(mobile+" "+city);
+		
+		
+		//System.out.println(mobile+" "+city);
 		
 
 		//driver.manage().window().maximize();

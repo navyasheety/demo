@@ -1,5 +1,6 @@
 package pageobjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -92,6 +93,14 @@ public WebDriver driver;
    @FindBy(name="reg_passwd__")
 	
   	public WebElement fbpassword;
+   
+   public WebElement getcheckin(String date) {
+	   
+	   return driver.findElement(By.xpath(String.format("//td[@data-date='%s']", date)));
+	   
+	   
+	   
+   }
   	
 	
 	
