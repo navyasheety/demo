@@ -35,7 +35,13 @@ public class Completetest extends Baseclass {
 	  @Test(dataProvider="testdata")
 		public void facebook(HashMap<String,String> data) throws FileNotFoundException, IOException {
 		  
+		  Logger = reporter.createTest("Face book create account");
+		    
 		  driver.get(getProperty("fb"));
+		  
+		  Logger.info("navigated to website"+ driver.getTitle());
+		  
+		  
 			
 			click(search.createAccount);
 	
@@ -58,8 +64,16 @@ public class Completetest extends Baseclass {
 	@Test(dataProvider="testdata")
 
 	public void sample(HashMap<String,String>data ) throws FileNotFoundException, IOException, InterruptedException {
+		
+		Logger = reporter.createTest("create booking login");
+		
+		
 
 		driver.get(getProperty("prod"));
+		
+		Logger.info("Navigated to website "+ driver.getTitle());
+		
+		
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		

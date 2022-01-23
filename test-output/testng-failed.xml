@@ -7,6 +7,7 @@
         <methods>
           <include name="sample" invocation-numbers="0"/>
           <include name="closeDriver"/>
+          <include name="setup"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- test.Completetest -->

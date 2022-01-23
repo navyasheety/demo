@@ -27,6 +27,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 
 
@@ -36,7 +43,29 @@ public static WebDriver driver;
 	
 	public static WebDriverWait wait;
 	
+	public static ExtentReports reporter;
 	
+	public static ExtentTest Logger;
+	
+	public static ExtentSparkReporter sparkReporter;
+	
+	public static  String filepath;
+	
+	@BeforeTest
+	
+	public void setup() {
+		
+		filepath="Reports/statusReport.html";
+		
+		sparkReporter = new ExtentSparkReporter(filepath);
+		
+		reporter = new ExtentReports();
+		
+		reporter.attachReporter(sparkReporter);
+		
+		
+		
+	}
 	
 	
 	static {
@@ -171,12 +200,24 @@ public static WebDriver driver;
 			
 			screenshot("FAILURE", result.getName());
 			
+			Logger.fail(result.getName()+ "is failed!!!!");
+			
+			
+			
+			
+			
 			
 			
 		}else {
 			
 			
 			screenshot("SUCESS", result.getName());
+			
+			Logger.pass(result.getName()+ " is passed!!!");
+			
+			
+			
+			
 			
 		}
 		
@@ -233,9 +274,10 @@ for(int i=1;i<=rows;i++) {
 		return data;
 	}
 	
-	@AfterTest(alwaysRun=true)
+	@AfterTest(enabled=true)
 	public void closeDriver() {
 		
+		reporter.flush();
 		driver.close();
 		
 		
