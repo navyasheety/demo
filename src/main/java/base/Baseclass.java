@@ -274,6 +274,13 @@ for(int i=1;i<=rows;i++) {
 		return data;
 	}
 	
+	public void masterMethod() {
+		
+		System.out.println("masterMethod");
+		
+		
+	}
+	
 	@AfterTest(enabled=true)
 	public void closeDriver() {
 		
