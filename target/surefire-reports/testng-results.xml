@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-25T14:44:23 IST" name="Suite" finished-at="2022-01-25T14:44:31 IST" duration-ms="8577">
+    <groups>
+    </groups>
+    <test started-at="2022-01-25T14:44:23 IST" name="Test" finished-at="2022-01-25T14:44:31 IST" duration-ms="8577">
+      <class name="test.Completetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Completetest@6cc86152]" started-at="2022-01-25T14:44:23 IST" name="setup" finished-at="2022-01-25T14:44:23 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="facebook(java.util.HashMap)[pri:0, instance:test.Completetest@6cc86152]" started-at="2022-01-25T14:44:25 IST" name="facebook" data-provider="testdata" finished-at="2022-01-25T14:44:30 IST" duration-ms="5578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=123456, last=shetty, first=navya, email=navyashetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Completetest@6cc86152]" started-at="2022-01-25T14:44:30 IST" name="afterMethod" finished-at="2022-01-25T14:44:30 IST" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=facebook status=SUCCESS method=Completetest.facebook(java.util.HashMap)[pri:0, instance:test.Completetest@6cc86152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:test.Completetest@6cc86152]" started-at="2022-01-25T14:44:30 IST" name="closeDriver" finished-at="2022-01-25T14:44:31 IST" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.Completetest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

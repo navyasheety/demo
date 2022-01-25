@@ -1,11 +1,14 @@
 package test;
 
 import java.io.FileNotFoundException;
+
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.time.Duration;
 import java.util.HashMap;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -16,6 +19,9 @@ import utils.ExcelUtils;
 public class Completetest extends Baseclass {
 
 	Searchobjects search = new Searchobjects(driver);
+	
+	public static final Logger log = LogManager.getLogger(Completetest.class);
+	
 	
 	/*
 	 * @DataProvider(name="testdata") public Object[][] readData() throws
@@ -41,7 +47,7 @@ public class Completetest extends Baseclass {
 		  
 		  Logger.info("navigated to website"+ driver.getTitle());
 		  
-		  
+		  log.debug("navigated to website"+ driver.getTitle());
 			
 			click(search.createAccount);
 	
@@ -54,6 +60,8 @@ public class Completetest extends Baseclass {
 			setValue(search.fbemail,data.get("email"));
 			
 			setValue(search.fbpassword,data.get("password"));
+			
+			log.debug("entered account details");
 			 
 			
 		}
