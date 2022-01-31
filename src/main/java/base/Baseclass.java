@@ -151,6 +151,19 @@ public static WebDriver driver;
 		
 	}
 	
+	public void javascriptClick(WebElement ele) {
+		
+		((JavascriptExecutor)driver).executeScript("arguments[0].click();",ele);
+		
+		
+		
+	}
+	
+	public void mastermethod() {
+		
+		
+	}
+	
 	public void screenshot() throws IOException {
 		
 		SimpleDateFormat dateFormat = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
@@ -227,7 +240,7 @@ public static WebDriver driver;
 	
 	public void scrollToElement(WebElement e) {
 		
-		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true)",e);
+		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",e);
 		
 		
 	}

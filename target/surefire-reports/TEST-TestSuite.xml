@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.534" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="33.313" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="webdriver.chrome.driver" value="C:\Users\lenovo\eclipse-workspace\demo\src\test\resources\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\lenovo\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire10115013982798970268\surefirebooter13179340287453838857.jar C:\Users\lenovo\AppData\Local\Temp\surefire10115013982798970268 2022-01-25T14-44-16_867-jvmRun1 surefire4662191790288502100tmp surefire_013487406289262658802tmp"/>
+    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire12911225735341703321\surefirebooter13478001023168232899.jar C:\Users\lenovo\AppData\Local\Temp\surefire12911225735341703321 2022-01-26T15-24-22_057-jvmRun1 surefire699453564426971247tmp surefire_016415036047935357724tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\lenovo\eclipse-workspace\demo\target\test-classes;C:\Users\lenovo\eclipse-workspace\demo\target\classes;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.0\selenium-java-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.0\selenium-api-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.0\selenium-chrome-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\lenovo\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\lenovo\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\lenovo\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\lenovo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\lenovo\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.0\selenium-chromium-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.0\selenium-json-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.0\selenium-devtools-v85-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.0\selenium-devtools-v94-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.0\selenium-devtools-v95-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.0\selenium-devtools-v96-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.0\selenium-edge-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.0\selenium-firefox-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.0\selenium-firefox-xpi-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.0\selenium-ie-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.0\selenium-opera-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.0\selenium-remote-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-buffer\4.1.69.Final\netty-buffer-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-codec-http\4.1.69.Final\netty-codec-http-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-codec\4.1.69.Final\netty-codec-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-handler\4.1.69.Final\netty-handler-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-common\4.1.69.Final\netty-common-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-epoll\4.1.69.Final\netty-transport-native-epoll-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.69.Final\netty-transport-native-kqueue-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.69.Final\netty-transport-native-unix-common-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport\4.1.69.Final\netty-transport-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-resolver\4.1.69.Final\netty-resolver-4.1.69.Final.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.0\opentelemetry-api-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.0\opentelemetry-context-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.0\opentelemetry-exporter-logging-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.0-alpha\opentelemetry-sdk-metrics-1.9.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.0-alpha\opentelemetry-sdk-logs-1.9.0-alpha.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.0\opentelemetry-sdk-common-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.0\opentelemetry-sdk-extension-autoconfigure-spi-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.0\opentelemetry-sdk-trace-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.0-alpha\opentelemetry-api-metrics-1.9.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.0\opentelemetry-sdk-1.9.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.0-alpha\opentelemetry-semconv-1.9.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.12.1\byte-buddy-1.12.1.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\lenovo\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\lenovo\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\lenovo\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\lenovo\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.0\selenium-http-4.1.0.jar;C:\Users\lenovo\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.0\selenium-safari-driver-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.0\selenium-support-4.1.0.jar;C:\Users\lenovo\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\lenovo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\lenovo\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\lenovo\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\lenovo\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\lenovo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\lenovo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\lenovo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\lenovo\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\lenovo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi\5.1.0\poi-5.1.0.jar;C:\Users\lenovo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\lenovo\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi-ooxml\5.1.0\poi-ooxml-5.1.0.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.1.0\poi-ooxml-lite-5.1.0.jar;C:\Users\lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.2\xmlbeans-5.0.2.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\lenovo\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire10115013982798970268\surefirebooter13179340287453838857.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire12911225735341703321\surefirebooter13478001023168232899.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -57,89 +57,96 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="facebook[{password=123456, last=shetty, first=navya, email=navyashetty@gmail.com}](1)" classname="test.Completetest" time="5.511">
-    <system-out><![CDATA[[DEBUG] 2022-01-25 14:44:20.363 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
-[DEBUG] 2022-01-25 14:44:20.382 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-[DEBUG] 2022-01-25 14:44:20.382 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-[DEBUG] 2022-01-25 14:44:20.392 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5cc23a
-[DEBUG] 2022-01-25 14:44:20.447 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
-[DEBUG] 2022-01-25 14:44:20.447 [main] PlatformDependent0 - Java version: 16
-[DEBUG] 2022-01-25 14:44:20.452 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-[DEBUG] 2022-01-25 14:44:20.454 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-[DEBUG] 2022-01-25 14:44:20.456 [main] PlatformDependent0 - java.nio.Buffer.address: available
-[DEBUG] 2022-01-25 14:44:20.458 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-[DEBUG] 2022-01-25 14:44:20.461 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
-[DEBUG] 2022-01-25 14:44:20.464 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3e96bacf
-[DEBUG] 2022-01-25 14:44:20.467 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-[DEBUG] 2022-01-25 14:44:20.467 [main] PlatformDependent - sun.misc.Unsafe: available
-[DEBUG] 2022-01-25 14:44:20.468 [main] PlatformDependent - maxDirectMemory: 2027945984 bytes (maybe)
-[DEBUG] 2022-01-25 14:44:20.470 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
-[DEBUG] 2022-01-25 14:44:20.470 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[DEBUG] 2022-01-25 14:44:20.473 [main] PlatformDependent - Platform: Windows
-[DEBUG] 2022-01-25 14:44:20.475 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-[DEBUG] 2022-01-25 14:44:20.476 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[DEBUG] 2022-01-25 14:44:20.480 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-[DEBUG] 2022-01-25 14:44:20.480 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
-[DEBUG] 2022-01-25 14:44:20.504 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-[DEBUG] 2022-01-25 14:44:20.549 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[DEBUG] 2022-01-25 14:44:20.550 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[DEBUG] 2022-01-25 14:44:20.846 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-[DEBUG] 2022-01-25 14:44:20.847 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-[DEBUG] 2022-01-25 14:44:20.900 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-[DEBUG] 2022-01-25 14:44:20.916 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
-[DEBUG] 2022-01-25 14:44:20.917 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-[DEBUG] 2022-01-25 14:44:21.029 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-[DEBUG] 2022-01-25 14:44:21.030 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-[DEBUG] 2022-01-25 14:44:21.030 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-[DEBUG] 2022-01-25 14:44:21.030 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
-[DEBUG] 2022-01-25 14:44:21.030 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
-[DEBUG] 2022-01-25 14:44:21.031 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-[DEBUG] 2022-01-25 14:44:21.031 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-[DEBUG] 2022-01-25 14:44:21.031 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[DEBUG] 2022-01-25 14:44:21.032 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-[DEBUG] 2022-01-25 14:44:21.032 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[DEBUG] 2022-01-25 14:44:21.032 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
-[DEBUG] 2022-01-25 14:44:21.033 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[DEBUG] 2022-01-25 14:44:21.056 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
-[DEBUG] 2022-01-25 14:44:21.056 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-[DEBUG] 2022-01-25 14:44:21.057 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[DEBUG] 2022-01-25 14:44:21.652 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 13492 (auto-detected)
-[DEBUG] 2022-01-25 14:44:21.658 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
-[DEBUG] 2022-01-25 14:44:21.658 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
-[DEBUG] 2022-01-25 14:44:21.678 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-[DEBUG] 2022-01-25 14:44:21.680 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[DEBUG] 2022-01-25 14:44:21.734 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: b0:fc:36:ff:fe:c9:7c:71 (auto-detected)
-[DEBUG] 2022-01-25 14:44:21.817 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-[DEBUG] 2022-01-25 14:44:21.817 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-[DEBUG] 2022-01-25 14:44:21.818 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@77ae607d
-[DEBUG] 2022-01-25 14:44:21.871 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-[DEBUG] 2022-01-25 14:44:21.871 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
-[DEBUG] 2022-01-25 14:44:21.872 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
-[DEBUG] 2022-01-25 14:44:21.872 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
-[DEBUG] 2022-01-25 14:44:21.872 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
-[DEBUG] 2022-01-25 14:44:22.739 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-[DEBUG] 2022-01-25 14:44:22.995 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x1676c5f8651f5c4f
-[DEBUG] 2022-01-25 14:44:23.993 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-[DEBUG] 2022-01-25 14:44:24.003 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-[DEBUG] 2022-01-25 14:44:24.021 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-[DEBUG] 2022-01-25 14:44:24.754 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-[DEBUG] 2022-01-25 14:44:28.437 [main] Completetest - navigated to websiteFacebook – log in or sign up
-[DEBUG] 2022-01-25 14:44:30.662 [main] Completetest - entered account details
+  <testcase name="facebook[{password=123456, last=shetty, first=navya, email=navyashetty@gmail.com}](1)" classname="test.Completetest" time="10.514">
+    <system-out><![CDATA[[DEBUG] 2022-01-26 15:24:27.563 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2022-01-26 15:24:27.574 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2022-01-26 15:24:27.574 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2022-01-26 15:24:27.580 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5cc5b667
+[DEBUG] 2022-01-26 15:24:27.609 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2022-01-26 15:24:27.609 [main] PlatformDependent0 - Java version: 16
+[DEBUG] 2022-01-26 15:24:27.613 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2022-01-26 15:24:27.614 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2022-01-26 15:24:27.616 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2022-01-26 15:24:27.617 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2022-01-26 15:24:27.618 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2022-01-26 15:24:27.620 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @484970b0
+[DEBUG] 2022-01-26 15:24:27.621 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2022-01-26 15:24:27.622 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2022-01-26 15:24:27.622 [main] PlatformDependent - maxDirectMemory: 2027945984 bytes (maybe)
+[DEBUG] 2022-01-26 15:24:27.623 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2022-01-26 15:24:27.623 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2022-01-26 15:24:27.624 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2022-01-26 15:24:27.625 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2022-01-26 15:24:27.625 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2022-01-26 15:24:27.627 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2022-01-26 15:24:27.627 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2022-01-26 15:24:27.639 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2022-01-26 15:24:27.669 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2022-01-26 15:24:27.669 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2022-01-26 15:24:27.869 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2022-01-26 15:24:27.870 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2022-01-26 15:24:27.907 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2022-01-26 15:24:27.919 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2022-01-26 15:24:27.919 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2022-01-26 15:24:28.001 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[DEBUG] 2022-01-26 15:24:28.001 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[DEBUG] 2022-01-26 15:24:28.001 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2022-01-26 15:24:28.001 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2022-01-26 15:24:28.001 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2022-01-26 15:24:28.001 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2022-01-26 15:24:28.001 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2022-01-26 15:24:28.001 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2022-01-26 15:24:28.001 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2022-01-26 15:24:28.002 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2022-01-26 15:24:28.002 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2022-01-26 15:24:28.002 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2022-01-26 15:24:28.014 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2022-01-26 15:24:28.014 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2022-01-26 15:24:28.014 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2022-01-26 15:24:29.096 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 10876 (auto-detected)
+[DEBUG] 2022-01-26 15:24:29.100 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2022-01-26 15:24:29.101 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2022-01-26 15:24:29.113 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2022-01-26 15:24:29.114 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2022-01-26 15:24:29.144 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: b0:fc:36:ff:fe:c9:7c:71 (auto-detected)
+[DEBUG] 2022-01-26 15:24:29.193 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2022-01-26 15:24:29.193 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2022-01-26 15:24:29.194 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@dc7b4ba
+[DEBUG] 2022-01-26 15:24:29.216 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2022-01-26 15:24:29.217 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2022-01-26 15:24:29.217 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2022-01-26 15:24:29.217 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2022-01-26 15:24:29.217 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2022-01-26 15:24:34.170 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2022-01-26 15:24:35.973 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xb77020398a3c33d0
+[DEBUG] 2022-01-26 15:24:38.480 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-01-26 15:24:38.484 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-01-26 15:24:38.486 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-01-26 15:24:39.713 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+[DEBUG] 2022-01-26 15:24:48.998 [main] Completetest - navigated to websiteFacebook – log in or sign up
+[DEBUG] 2022-01-26 15:24:51.002 [main] Completetest - entered account details
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 58469
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 64592
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1643102062.669][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
-Jan 25, 2022 2:44:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1643190873.937][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 26, 2022 3:24:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jan 25, 2022 2:44:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jan 26, 2022 3:24:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 97, so returning the closest version found: 96
-Jan 25, 2022 2:44:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jan 26, 2022 3:24:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 97 of 96
 ]]></system-err>
+  </testcase>
+  <testcase name="sample[{checkout=2022-01-23, checkin=2022-01-21}](1)" classname="test.Completetest" time="7.137">
+    <system-out><![CDATA[[DEBUG] 2022-01-26 15:24:51.324 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-01-26 15:24:51.325 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2022-01-26 15:24:51.327 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2022-01-26 15:24:51.347 [main] POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+]]></system-out>
   </testcase>
 </testsuite>
