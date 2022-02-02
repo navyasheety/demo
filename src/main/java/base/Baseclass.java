@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -202,6 +203,16 @@ public static WebDriver driver;
 			
 		}
 		
+	}
+	
+	public void printElementsText(List<WebElement> elements) {
+		
+		for(WebElement element : elements) {
+			
+			System.out.println(element.getText());
+			
+			
+		}
 	}
 	
 	@AfterMethod

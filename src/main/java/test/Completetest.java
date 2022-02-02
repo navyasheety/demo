@@ -38,7 +38,7 @@ public class Completetest extends Baseclass {
 	  
 	  }
 	  
-	  @Test(dataProvider="testdata")
+	  @Test(dataProvider="testdata" , enabled = false)
 		public void facebook(HashMap<String,String> data) throws FileNotFoundException, IOException {
 		  
 		  Logger = reporter.createTest("Face book create account");
@@ -85,15 +85,38 @@ public class Completetest extends Baseclass {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
-		click(search.gotocheckin);
+		click(search.searhcity);
+		  
+		  setValue(search.searhcity, "hyd");
+		  
+		  waitForElement(search.Entercity);
+		 
+		  moveAndClick(search.Entercity, search.Entercity);
+		  
+		  click(search.gotocheckin);
+		  
+		  Thread.sleep(2000);
+		  
+		  moveAndClick(search.gotocheckin, search.checkindate);
+		  
+		  moveAndClick(search.checkindate, search.checkoutdate);
 		
-		click(search.getcheckin(data.get("checkin")));
+		  click(search.buttonsearch);
 		
-		Thread.sleep(2000);
-		
-		click(search.getcheckin(data.get("checkout")));
-		
-		
+		  printElementsText(search.hotelNames);
+		  
+		  
+		  
+			/*
+			 * click(search.gotocheckin);
+			 * 
+			 * click(search.getcheckin(data.get("checkin")));
+			 * 
+			 * Thread.sleep(2000);
+			 * 
+			 * click(search.getcheckin(data.get("checkout")));
+			 * 
+			 */
 		
 		 
 		
@@ -103,13 +126,14 @@ public class Completetest extends Baseclass {
 
 		//driver.manage().window().maximize();
 
+		
 		/*
 		 * click(search.searhcity);
 		 * 
-		 * setvalue(search.searhcity, "hyd");
+		 * setValue(search.searhcity, "hyd");
 		 * 
 		 * waitForElement(search.Entercity);
-		 *
+		 * 
 		 * moveAndClick(search.Entercity, search.Entercity);
 		 * 
 		 * click(search.gotocheckin);

@@ -2,38 +2,38 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-25T13:49:01 IST" name="Default suite" finished-at="2022-01-25T13:49:06 IST" duration-ms="5800">
+  <suite started-at="2022-02-02T14:06:37 IST" name="Default suite" finished-at="2022-02-02T14:06:55 IST" duration-ms="17601">
     <groups>
     </groups>
-    <test started-at="2022-01-25T13:49:01 IST" name="Default test" finished-at="2022-01-25T13:49:06 IST" duration-ms="5800">
+    <test started-at="2022-02-02T14:06:37 IST" name="Default test" finished-at="2022-02-02T14:06:55 IST" duration-ms="17601">
       <class name="test.Completetest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.Completetest@1dc3502b]" started-at="2022-01-25T13:49:01 IST" name="setup" finished-at="2022-01-25T13:49:01 IST" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Completetest@eac3a26]" started-at="2022-02-02T14:06:37 IST" name="setup" finished-at="2022-02-02T14:06:37 IST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="facebook(java.util.HashMap)[pri:0, instance:test.Completetest@1dc3502b]" started-at="2022-01-25T13:49:02 IST" name="facebook" data-provider="testdata" finished-at="2022-01-25T13:49:05 IST" duration-ms="3480" status="PASS">
+        <test-method signature="sample(java.util.HashMap)[pri:0, instance:test.Completetest@eac3a26]" started-at="2022-02-02T14:06:38 IST" name="sample" data-provider="testdata" finished-at="2022-02-02T14:06:54 IST" duration-ms="15796" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=123456, last=shetty, first=navya, email=navyashetty@gmail.com}]]>
+                <![CDATA[{checkout=2022-01-23, checkin=2022-01-21}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facebook -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Completetest@1dc3502b]" started-at="2022-01-25T13:49:05 IST" name="afterMethod" finished-at="2022-01-25T13:49:05 IST" duration-ms="192" status="PASS">
+        </test-method> <!-- sample -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Completetest@eac3a26]" started-at="2022-02-02T14:06:54 IST" name="afterMethod" finished-at="2022-02-02T14:06:54 IST" duration-ms="233" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=facebook status=SUCCESS method=Completetest.facebook(java.util.HashMap)[pri:0, instance:test.Completetest@1dc3502b] output={null}]]]>
+                <![CDATA[[TestResult name=sample status=SUCCESS method=Completetest.sample(java.util.HashMap)[pri:0, instance:test.Completetest@eac3a26] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:test.Completetest@1dc3502b]" started-at="2022-01-25T13:49:05 IST" name="closeDriver" finished-at="2022-01-25T13:49:06 IST" duration-ms="1019" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:test.Completetest@eac3a26]" started-at="2022-02-02T14:06:54 IST" name="closeDriver" finished-at="2022-02-02T14:06:55 IST" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

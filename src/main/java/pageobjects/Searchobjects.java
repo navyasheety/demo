@@ -1,5 +1,7 @@
 package pageobjects;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,11 +38,11 @@ public WebDriver driver;
 	
 	public WebElement buttonsearch;
 	
-	@FindBy(xpath="(//div[@class='bui-calendar__wrapper'])[1]//tbody/tr[3]//td//span[text()='12']")
+	@FindBy(xpath="(//div[@class='bui-calendar__wrapper'])[1]//tbody/tr[3]/td[2]")
 	
 	public WebElement checkindate;
 	
-	@FindBy(xpath="(//div[@class='bui-calendar__wrapper'])[2]//tbody/tr[1]//td//span[text()='5']")
+	@FindBy(xpath="(//div[@class='bui-calendar__wrapper'])[2]//td[3]")
 	
 	public WebElement checkoutdate;
 	
@@ -83,8 +85,11 @@ public WebDriver driver;
 	
 	public WebElement lastname;
 	
+   @FindBy(xpath="//div[@data-testid='title']")
    
-
+   public List<WebElement> hotelNames;
+   
+   
    @FindBy(name="reg_email__")
 	
 	public WebElement fbemail;
